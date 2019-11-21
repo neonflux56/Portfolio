@@ -25,11 +25,11 @@ date_format = "Jan 2006"
   date_start = "2017-07-03"
   date_end = "2019-07-11"
   description = """
-  Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+*	Worked closely with a client in designing a credit risk assessment application featuring credit analysis and score generation using customer data on Pega; leading to decrease of manual efforts by 24 hours per week
+* Developed a call centre software application for an insurance firm suggesting next best action and intent tasks to customer representatives based on previous interaction history; reducing the average response call time by 2 minutes 
+*	Collaborated with the state government of Andhra Pradesh, India to develop and deploy a unified data-based platform collecting large dataset of public information, using SQL to perform ETL on this data
+*	Led a team of five to develop an internal EY asset using NLP to automate customer feedback classification by applying SVM classifier algorithm to segment emails based on text content improving the speed of processing requests by 60%
   """
 
 [[experience]]
@@ -39,7 +39,12 @@ date_format = "Jan 2006"
   location = "Mysore, India"
   date_start = "2017-02-01"
   date_end = "2017-06-01"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """
+  
+*	Performed time series analysis for yearly profits and expenditure using autoregressive moving average method in python providing a comprehensive dashboard display of cost and revenue models for business decisions
+*	Identified key metrics most impactful in business growth using correlation-regression analysis on business verticals revenue streams; resulting in quarterly profit margin increase by 25%
+*	Generated weekly company insights and reports by using Tableau’s data visualization features 
+  """
 
 [[experience]]
   title = "Operations Analyst Intern"
@@ -48,6 +53,7 @@ date_format = "Jan 2006"
   location = "Mysore, India"
   date_start = "2016-05-01"
   date_end = "2016-06-01"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
+  description = """
+  
+* Analysed bottlenecks in the process of manufacturing printed circuit boards from raw material procurement to quality control improving efficiency by 20% in terms of PCB output by optimizing labour-task assignment"""
 +++
