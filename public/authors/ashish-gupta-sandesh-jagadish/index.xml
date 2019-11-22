@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashish Gupta, Sandesh Jagadish | Ashish Gupta</title>
+    <link>/authors/ashish-gupta-sandesh-jagadish/</link>
+      <atom:link href="/authors/ashish-gupta-sandesh-jagadish/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ashish Gupta, Sandesh Jagadish</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ashish Gupta, Sandesh Jagadish</title>
+      <link>/authors/ashish-gupta-sandesh-jagadish/</link>
+    </image>
+    
+    <item>
+      <title>Machine learning oriented gesture controlled device for the speech and motion impaired</title>
+      <link>/publication/icdmai/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/icdmai/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
