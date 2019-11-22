@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="The idea is to develop a customisable survey system which is userfriendly, portable and can be used for wide-ranging applications.">
+  <meta name="description" content="Developing a customisable survey system which uses Logistic Regression to predict a categorical survey information.">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/mssda/">
@@ -114,13 +114,13 @@
   <meta property="og:site_name" content="Ashish Gupta">
   <meta property="og:url" content="/project/mssda/">
   <meta property="og:title" content="Modular Survey System with Data Analytics | Ashish Gupta">
-  <meta property="og:description" content="The idea is to develop a customisable survey system which is userfriendly, portable and can be used for wide-ranging applications."><meta property="og:image" content="/project/mssda/featured.jpg">
+  <meta property="og:description" content="Developing a customisable survey system which uses Logistic Regression to predict a categorical survey information."><meta property="og:image" content="/project/mssda/featured.jpg">
   <meta property="twitter:image" content="/project/mssda/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2017-04-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2017-04-01T00:00:00&#43;00:00">
   
 
   
@@ -152,8 +152,8 @@
     "/project/mssda/featured.jpg"
   ],
   
-  "datePublished": "2016-04-27T00:00:00Z",
-  "dateModified": "2016-04-27T00:00:00Z",
+  "datePublished": "2017-04-01T00:00:00Z",
+  "dateModified": "2017-04-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -168,7 +168,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "The idea is to develop a customisable survey system which is userfriendly, portable and can be used for wide-ranging applications."
+  "description": "Developing a customisable survey system which uses Logistic Regression to predict a categorical survey information."
 }
 </script>
 
@@ -301,35 +301,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
@@ -360,6 +331,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -469,7 +469,7 @@
     
       
     
-    Apr 27, 2016
+    Apr 1, 2017
   </span>
   
 
@@ -570,7 +570,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
   <div style="position: relative">
     <img src="/project/mssda/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
+    <span class="article-header-caption">Photo-rawpixel</span>
   </div>
 </div>
 
@@ -579,9 +579,13 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project undertakes this issue regarding the data conundrum to come out with a better solution to data management. The idea is to develop a customisable survey system which is userfriendly, portable and can be used for wide-ranging applications. Our project takes this up a notch by adding the current trends in technology like security and analytics with effective implementation. The deployment of the device involves a predefined set of steps, which remains the same for any task its being programmed for. This can be shown in the flowchart below:</p>
+      
 
-<p><img src="/MSSDA/index_files/Screenshot 2016-11-23 10.56.02.png" alt="" /></p>
+<h2 id="introduction">Introduction</h2>
+
+<p>The concept of Modular Survey System is to design an extremely versatile hardware device to store survey results in an SD card and then apply visual and predictive analytics on the survey data collected. This project develops a customisable survey generator which is user-friendly, portable and can be used for a wide range of applications. The deployment of the device involves a predefined set of steps, which remains the same for any task its being programmed for. This can be shown in the flowchart below:</p>
+
+<p><img src="/project/MSSDA/index_files/Screenshot 2016-11-23 10.56.02.png" alt="" /></p>
 
 <p>The applications of this device in its respective field is potentially limitless. It integrates the functionalities of all its counterparts into a single, portable device. Some of the everyday applications are mentioned below:</p>
 
@@ -595,9 +599,45 @@
 <li><p>Prediction - Another important application to the proposed concept is the prediction model developed. Prediction is an essential part in various fields of study which help preparing for future consequences. The data collected from the survey is subjected to machine learning algorithms to predict using a probabilistic approach as to what the output can be provided the same features.</p></li>
 </ol>
 
-<p>The implementation of machine learning algorithm multivariate linear regression to determine the probabilistic output is one of the major applications of the proposed system. The data obtained is in the .csv file form which is further imported by python script to perform the function. The python script reads the file from the SD card reader and classifies the data as parameters for all of the columns except the last column of data which is the main end question containing the affirmative and negative class. This applies a multivariate regression classifier (logistic regression) on this data to analyze the probabilistic output for a test data. The input for the test data is taken when the python script is run and the user answers the same parameter questions displayed on the Terminal. The input is then used in the classifies as test data and the survey data taken as the training data.</p>
+<h2 id="implementation">Implementation</h2>
 
-<p>The main perspective of this project was to develop a product similar to the EVMs currently in use, but with enhanced security, portability and most importantly, practicality. This was accomplished by making the product completely customizable, enabling the user to configure the device to meet any requirements. Data privacy and security was enhanced by many folds through data encryption and multi layer authentication. The polling scenario considered here returned high levels of accuracy and precision, which only increased with the size of the dataset processed.Device configured to register votes performed better, more efficiently than the existing purpose made devices. Analysis and representation of the data conveyed the progress and final outcome of the event in a simple and precise manner.</p>
+<p>The implementation of multivariate linear regression ML algorithm to determine the probabilistic output is one of the major applications of the proposed system. The data obtained is in the .csv file form which is further imported by python script to perform the function. The python script reads the file from the SD card reader and classifies the data as parameters for all of the columns except the last column of data which is the main end question containing the affirmative and negative class. This applies a multivariate regression classifier (logistic regression) on this data to analyze the probabilistic output for a test data. The input for the test data is taken when the python script is run and the user answers the same parameter questions displayed on the Terminal. The input is then used in the classifies as test data and the survey data taken as the training data. Logistic Regression is a classification type to address the binary classification problem in our project. The output 0 is taken as the ’positive class’ and the output 1 is taken as the ’negative class’. The sigmoid function or logistic function is used which is represented by the following equations:</p>
+
+<p><img src="/project/MSSDA/index_files/Screenshot 2019-11-22 11.56.33.png" alt="" /></p>
+
+<p>The function g(z), shown here, maps any real number to the (0, 1) interval, making it useful for transforming an arbitrary-valued function into a function better suited for classification. For the parameter , the cost function is given below.</p>
+
+<p><img src="/project/MSSDA/index_files/Screenshot 2019-11-22 11.56.42.png" alt="" /></p>
+
+<p>To optimize the training dataset and to minimize the error, the cost function is used in the gradient descent process.</p>
+
+<p><img src="/project/MSSDA/index_files/Screenshot 2019-11-22 11.56.49.png" alt="" /></p>
+
+<p><img src="/project/MSSDA/index_files/Screenshot 2019-11-22 11.54.02.png" alt="" /></p>
+
+<p>The polling scenario considered here returned high levels of accuracy and precision, which increased with the size of the dataset processed.</p>
+
+<h2 id="future-scope">Future Scope</h2>
+
+<p>Innovations are necessary to break the old practice to implement new technology with more advantages. Few more modules, newer and adaptable algorithms can be added to make the
+Modular survey system effective and with more security.</p>
+
+<ol>
+<li><p>Data acquisition:
+The device can be easily configured to acquire repetitive data, by interfacing it with generic data gathering attachments such as a fingerprint sensor, camera module, and a keyboard. This same setup, for example, can be used to collectpublic identification or registration of new recruits in a company.</p></li>
+
+<li><p>Security enhancement:
+Further improvement on the security end employs fingerprint authorization and encryption of the data stored locally. This two step authorization - RFiD and Biometric, ensures more security against data or device manipulation than any other commercial device.</p></li>
+
+<li><p>Cloud integration:
+With the security offered by encryption, cloud integration opens up a new horizon of applications. Real time data transfer and analysis can now be done. Several modules can be deployed in an area linked through the cloud, with centralized controlling and analysis. Loss of data due to physical damage to the device or memory device corruption is also avoided through cloud backup. To further ease the process of data transfer and storing, data compression technique such as LZW is adaptable for our requirements.</p></li>
+</ol>
+
+<div class="alert alert-">
+  <div>
+    Click <a href="https://github.com/neonflux56/Project_MSSDA/blob/master/MSSDA.pdf" target="_blank">PDF</a> to view more details on this project.
+  </div>
+</div>
 
     </div>
 

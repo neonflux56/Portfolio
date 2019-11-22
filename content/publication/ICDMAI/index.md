@@ -23,7 +23,7 @@ tags:
 - Machine Learning
 - Speech
 - Artificial Intelligence
-title: Machine learning oriented gesture controlled device for the speech and motion impaired
+title: Machine learning oriented gesture controlled device for the speech and motion impaired, ICDMAI'17, Pune, India
 #url_code: '#'
 #url_dataset: '#'
 #url_pdf: https://github.com/neonflux56/Publication_ICDMAI/blob/master/ICDMAI_2017_paper.pdf
