@@ -13,10 +13,26 @@
     </image>
     
     <item>
-      <title>Machine Learning, Speech, Audio, Artificial Intelligence</title>
-      <link>/tags/machine-learning-speech-audio-artificial-intelligence/</link>
+      <title>Artificial Intelligence</title>
+      <link>/tags/artificial-intelligence/</link>
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/machine-learning-speech-audio-artificial-intelligence/</guid>
+      <guid>/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech</title>
+      <link>/tags/speech/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/speech/</guid>
       <description></description>
     </item>
     
@@ -29,18 +45,18 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
+      <title>Data Visualization</title>
+      <link>/tags/data-visualization/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/deep-learning/</guid>
+      <guid>/tags/data-visualization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
+      <title>Python</title>
+      <link>/tags/python/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/demo/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     

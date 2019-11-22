@@ -83,12 +83,17 @@
   </url>
   
   <url>
-    <loc>/publication/icdmai/</loc>
+    <loc>/tags/artificial-intelligence/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/machine-learning-speech-audio-artificial-intelligence/</loc>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/icdmai/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,6 +113,11 @@
   </url>
   
   <url>
+    <loc>/tags/speech/</loc>
+    <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -123,27 +133,22 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
+    <loc>/tags/data-visualization/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
+    <loc>/project/mssda/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   

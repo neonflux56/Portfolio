@@ -13,27 +13,29 @@
     </image>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
+      <title>Modular Survey System with Data Analytics</title>
+      <link>/project/mssda/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <guid>/project/mssda/</guid>
+      <description>&lt;p&gt;This project undertakes this issue regarding the data conundrum to come out with a better solution to data management. The idea is to develop a customisable survey system which is userfriendly, portable and can be used for wide-ranging applications. Our project takes this up a notch by adding the current trends in technology like security and analytics with effective implementation. The deployment of the device involves a predefined set of steps, which remains the same for any task its being programmed for. This can be shown in the flowchart below:&lt;/p&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/MSSDA/index_files/Screenshot 2016-11-23 10.56.02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;The applications of this device in its respective field is potentially limitless. It integrates the functionalities of all its counterparts into a single, portable device. Some of the everyday applications are mentioned below:&lt;/p&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Enumeration and census - provide an insight into the current status of related parameters and serves as the basis of constructing, planning, forecasts. It is also an essential part for a democratic process as it enables the citizens to examine the decisions made by the government and the local authorities and decide their effectiveness. But every enumeration process comes with an inherent time gap between its iterations, during which the corresponding devices remain idle. With the adoption of the proposed device, a single device can be configured to be used with any enumeration platforms and hence mitigating the idle time.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Polling - The most strategically precise move before taking a decision affecting the masses, is to take a poll of the opinions. The contents of such a poll are usually diverse, all of which can be configured on our device, leading a step closer towards an efficient system. In this opinionated world, the system offers everyone a chance to voice their ideas and opinions. This is the fundamental concept of the democracy that we live in.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Customized Data Entry - Camera module, fingerprint scanner and the included hex keypad module can be configured to form a basic data acquiring device, that can easily be appreciated for its convenient multipurpose in Aadhaar office, Passport centres, RTOs etc. Any layman can understand the operation of the system and this would enable easy customization of the system providing multivariate surveys for everyone to interpret and understand.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Prediction - Another important application to the proposed concept is the prediction model developed. Prediction is an essential part in various fields of study which help preparing for future consequences. The data collected from the survey is subjected to machine learning algorithms to predict using a probabilistic approach as to what the output can be provided the same features.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The implementation of machine learning algorithm multivariate linear regression to determine the probabilistic output is one of the major applications of the proposed system. The data obtained is in the .csv file form which is further imported by python script to perform the function. The python script reads the file from the SD card reader and classifies the data as parameters for all of the columns except the last column of data which is the main end question containing the affirmative and negative class. This applies a multivariate regression classifier (logistic regression) on this data to analyze the probabilistic output for a test data. The input for the test data is taken when the python script is run and the user answers the same parameter questions displayed on the Terminal. The input is then used in the classifies as test data and the survey data taken as the training data.&lt;/p&gt;
+
+&lt;p&gt;The main perspective of this project was to develop a product similar to the EVMs currently in use, but with enhanced security, portability and most importantly, practicality. This was accomplished by making the product completely customizable, enabling the user to configure the device to meet any requirements. Data privacy and security was enhanced by many folds through data encryption and multi layer authentication. The polling scenario considered here returned high levels of accuracy and precision, which only increased with the size of the dataset processed.Device configured to register votes performed better, more efficiently than the existing purpose made devices. Analysis and representation of the data conveyed the progress and final outcome of the event in a simple and precise manner.&lt;/p&gt;
 </description>
     </item>
     

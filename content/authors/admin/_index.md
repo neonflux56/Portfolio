@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My interests include applied data science, recommender systems, deep learning and data visualization.
 education:
   courses:
   - course: Master of Science in Business Analytics
@@ -16,11 +15,12 @@ interests:
 - Applied Data Science
 - Recommender Systems
 - Deep Learning
+- Data Visualization
 name: Ashish Gupta
 organizations:
 - name: San Diego, California
   url: ""
-role: Data Enthusiast | Engineer | Wanderer
+role: Data Enthusiast | Engineer | Business Analyst 
 social:
 - icon: envelope
   icon_pack: fas
@@ -37,5 +37,5 @@ user_groups:
 - Visitors
 ---
 
-Ashish Gupta is a student of business analytics at the University of California, San Diego. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ashish Gupta is a student of business analytics at the University of California, San Diego. Having worked with Ernst & Young for two years as a consultant, he specializes in data-driven customer relationship management(CRM) solutions, Next-Best-Action recommendations and API integrations primarily using data analytics and applications of predictive algorithms.
 

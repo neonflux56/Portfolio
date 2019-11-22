@@ -11,20 +11,22 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: IEEE_Published_URL
+- name: Published Paper
   url: https://ieeexplore.ieee.org/document/8073528
-publication: IEEE Xplore Library, 2017 International Conference on Data Management, Analytics and Innovation (ICDMAI)
+publication: IEEE Digital Xplore Library, 2017 International Conference on Data Management, Analytics and Innovation (ICDMAI)
 publication_short: 
 publication_types:
 - "1"
 publishDate: "2017-10-19"
 summary: This paper proposes the idea of using machine learning implementation to develop a device that can benefit the speech and motion constrained population. Gesture control plays an essential role in order to convert the sensor data into speech output or operating a pick and place bot for the motion constrained.
 tags:
-- Machine Learning, Speech, Audio, Artificial Intelligence
+- Machine Learning
+- Speech
+- Artificial Intelligence
 title: Machine learning oriented gesture controlled device for the speech and motion impaired
 #url_code: '#'
 #url_dataset: '#'
-url_pdf: https://github.com/neonflux56/Publication_ICDMAI/blob/master/ICDMAI_2017_paper.pdf
+#url_pdf: https://github.com/neonflux56/Publication_ICDMAI/blob/master/ICDMAI_2017_paper.pdf
 #url_poster: '#'
 #url_project: 
 #url_slides: ""
