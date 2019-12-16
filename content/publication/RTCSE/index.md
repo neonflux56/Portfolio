@@ -19,7 +19,10 @@ publication_types:
 publishDate: "2017-01-03"
 summary: This paper provides insight to how machine learning could disrupt the manufacturing development in India and could result in better production yield and revenue generation. In the next 20 years, automation would be a major factor in yielding profits to large manufacturing corporations and industries and machine learning would have an immense role to play in the rapidly changing scenario.
 tags:
-- Machine Learning, Feature extraction, Prediction, Manufacturing
+- Machine Learning
+- Feature extraction
+- Prediction
+- Manufacturing
 title: Ramifications of machine learning in the manufacturing sector, RTCSE'17, Kuala Lumpur, Malaysia
 #url_code: '#'
 #url_dataset: '#'

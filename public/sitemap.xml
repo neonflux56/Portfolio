@@ -33,6 +33,36 @@
   </url>
   
   <url>
+    <loc>/tags/data-visualization/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/startup-global/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -53,27 +83,12 @@
   </url>
   
   <url>
-    <loc>/tags/data-visualization/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/mssda/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/python/</loc>
-    <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,7 +143,17 @@
   </url>
   
   <url>
-    <loc>/tags/machine-learning-feature-extraction-prediction-manufacturing/</loc>
+    <loc>/tags/feature-extraction/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/manufacturing/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/prediction/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
   </url>
   
