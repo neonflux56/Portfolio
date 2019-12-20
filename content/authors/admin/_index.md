@@ -31,6 +31,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/neonflux56
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ashishgupta63966/
 superuser: true
 user_groups:
 - Researchers

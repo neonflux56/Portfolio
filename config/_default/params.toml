@@ -90,7 +90,7 @@ phone = "+1-(631)-974-8586"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "7665 Palmilla Drive, Unit 5119", city = "San Diego", region = "CA", postcode = "92122", country = "United States", country_code = "US"}
+address = {street = "7665 Palmilla Drive", city = "San Diego", region = "CA", postcode = "92122", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -110,7 +110,7 @@ office_hours = []
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link ="https://twitter.com/TheGuptaGuy"},
-  #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  {icon = "linkedin", icon_pack = "fab", name = "Connect on LinkedIn", link = "https://www.linkedin.com/in/ashishgupta63966/"}
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
