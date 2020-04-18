@@ -21,9 +21,9 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Graduate Student Researcher"
-  company = "CSE Department, University of California, San Diego"
+  company = "Computer Science & Engineering Department"
   company_url = ""
-  location = "Mysore, India"
+  location = "University of California, San Diego, California"
   date_start = "2020-01-03"
   date_end = "2020-03-20"
   description = """
