@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests include applied data science, recommender systems, deep learning and data visualization.
+bio: My interests include applied data science, recommender systems, churn and risk management and data visualization.
 education:
   courses:
   - course: Master of Science in Business Analytics
@@ -12,10 +12,12 @@ education:
     year: 2017
 email: ""
 interests:
-- Applied Data Science
+- Applied Machine Learning
 - Recommender Systems
-- Deep Learning
+- Churn and Risk Management
 - Data Visualization
+- Trend Forecasting
+- Deep Learning
 name: Ashish Gupta
 organizations:
 - name: San Diego, California
@@ -40,5 +42,5 @@ user_groups:
 - Visitors
 ---
 
-Ashish Gupta is a student of business analytics at the University of California, San Diego. Having worked with Ernst & Young for two years as a consultant, he specializes in data-driven customer relationship management(CRM) solutions, Next-Best-Action recommendations and API integrations primarily using data analytics and applications of predictive algorithms.
+I am currently a student of business analytics at the University of California, San Diego. Having worked with Ernst & Young for two years as a technology consultant and with the experience of deploying cross-domain data sceince projects, I have found my passion in finding patterns in complex data structures with the objective of improving business application. I specialize in data-driven Customer Relationship Management(CRM) solutions, Next-Best-Action recommendation systems, API Integrations and Risk Management solutions primarily using analytics and applications of predictive algorithms.
 

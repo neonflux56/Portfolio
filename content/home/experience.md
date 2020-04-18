@@ -17,8 +17,27 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+
 [[experience]]
-  title = "Associate Consultant"
+  title = "Graduate Student Researcher"
+  company = "CSE Department, University of California, San Diego"
+  company_url = ""
+  location = "Mysore, India"
+  date_start = "2020-01-03"
+  date_end = "2020-03-20"
+  description = """
+  
+*	Worked on machine learning techniques like transfer learning and semi-supervised domain adaptation to map modern building infrastructure information to a common schema for unified interpretation and scalability.
+*	Implemented adversarial discriminative domain adaptation using functional keras and tensorflow in linux python.
+  """
+
+
+
+
+
+[[experience]]
+  title = "Technology Consultant"
   company = "Ernst & Young"
   company_url = ""
   location = "Bangalore, India"
@@ -33,7 +52,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Data Analyst Intern"
+  title = "Data Analyst"
   company = "Surabhi Softwares"
   company_url = ""
   location = "Mysore, India"
@@ -47,7 +66,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Operations Analyst Intern"
+  title = "Operations Analyst"
   company = "Kaynes Technology"
   company_url = ""
   location = "Mysore, India"
