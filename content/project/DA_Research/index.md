@@ -10,10 +10,10 @@ links:
   name: Follow
   url: https://twitter.com/TheGuptaGuy
 #slides: DA Research
-summary: Using semi-supervised domain adaptation to map modern building infrastructure information to a common schema for unified interpretation and scalability.
+summary: Semi-supervised domain adaptation to map modern building info
 tags:
 - Python
-title: Domain Adaptation Using Transfer Machine Learning Techniques
+title: Domain Adaptation using ML Transfer Techniques
 
 url_code: ""
 url_pdf: https://github.com/neonflux56/Domain_Adaptation_Research/blob/master/Independent_Research_Report_Ashish.pdf
