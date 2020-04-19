@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My interests include applied data science, recommender systems, churn and risk management and data visualization.
+bio: AI | ML | Analytics | Other Crazy Interests
 education:
   courses:
   - course: Master of Science in Business Analytics
