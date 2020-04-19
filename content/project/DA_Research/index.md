@@ -146,6 +146,11 @@ Evaluation of the performance of a model was done using set accuracy since that 
 
 $ set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.union(true))} $, summed for all datapoints
 
+<p align="center">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture5.png">
+  <em>Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building</em>
+</p>
+
 ![Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building](/project/DA_Research/index_files/Picture5.png)
 
 <div style="text-align:justify"><span>
@@ -161,12 +166,7 @@ The neural adapter model with a direct source and target output linkage layer pe
 
 - <div style="text-align:justify"><span>Deep fake, which is an infamously hot topic currently use Generative Adversarial Networks to create domain shifts/noise in a real image. Domain adaptation techniques can be used to classify a real image from a fake one and prevent massive misuse of this technology.</span></div>
 
-![Source: Deeptrace](/project/DA_Research/index_files/Picture6.png)
 
-<p align="center">
-  <img width="460" height="300" src="/project/DA_Research/index_files/Picture6.png">
-  <em>Source: Deeptrace</em>
-</p>
 
 ## References
 
