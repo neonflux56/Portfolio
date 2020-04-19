@@ -34,6 +34,7 @@ The basic goal of this research project is to obtain a scalable model to map bui
 <div style="text-align:justify"><span>
 Scrabble framework provides a versatile approach to map building information in the form of thousands of data points on to a common schema, successfully retrieving semantic metadata from unstructured raw metadata. This is done while reusing known information in existing buildings to reduce the amount of effort for domain experts to provide input labels. Modern building infrastructure is supported using sensors and networked into a Building Management System(BMS). BMSes manages data from sensors such as room temperature, power meter; from actuators such as dampers for control of air flow, fans for exhaust; and from configurations such as the temperature setpoint for heating. Brick is a metadata schema which provides for a complete vocabularies and relationships to describe such resources in a machine readable format, thus enabling portability of applications. Scrabble is currently implemented and evaluated for five buildings using Brick as the target schema. 
 </span></div>
+
 <div style="text-align:justify"><span>
 The high-level objective through this research project is to obtain a more comprehensive interoperability in internet of things by providing for a robust scalable implementation of  Scrabble framework. In the absence of labeled data for a certain classification task, domain adaptation is usually an attractive method given that labeled data of similar nature but from a different domain are available. The intention is to scale the framework to multiple buildings, each of which would correspond to a domain shift or dataset bias, by reducing the adaptation reduce the difference between the training and test domain distributions and thus improving generalization performance of the framework. Given the labeled source building data and the target building input data points, the purpose is to obtain the predictions for the target building labels using Domain Adaptation.
 </span></div>
@@ -43,21 +44,25 @@ The high-level objective through this research project is to obtain a more compr
 <div style="text-align:justify"><span>
 During the last few years, new methodologies like Domain Adaptation have improved computer vision applications drastically. Domain Adaptation is a sub-discipline of machine learning where a model is trained on a source distribution and is used in a different (but related) context on a target distribution. For example, from the image below, the bags from domain 1 do not have any background but the bags from domain 2 have a slightly complex backgound. This is called domain shift. If an image classifier is trained on domain 1 and used to predict on domain 2, the model would experience a performance degradation on some level.
 </span></div>
-![Domain Shift](/project/DA_Research/index_files/Picture2.png)<!-- .element height="50%" width="50%" -->
+
+![Domain Shift](/project/DA_Research/index_files/Picture2.png)
 
 <div style="text-align:justify"><span>
 Domain Adaptation basically attempts to eliminate the difference between the distribution of labeled source domain on which a classifier is trained and that of unlabel target distribution to which the classifier is applied. The level of relatedness between the source and target domains hereby usually determines how successful the adaptation will be.
 </span></div>
+
 ## Domain Adaptation in Scrabble
 
 <div style="text-align:justify"><span>
 Scrabble uses an active learning framework for normalising the metadata of sensors in multiple buildings by using a transferrable intermediate layer. Scrabble makes use of machine learning algorithm called Conditional Random Field (CRF) Classifier to map a sentence from target building to a set of Brick tags. This is trained with the help of source samples or examples from domain experts. These Brick tags form a reusable Intermediate Representation (IR) for effectiveness in mapping it to the final labels.. A multi-Layer Perceptron(MLP) is used to map the Tags to the corresponding Tagsets. Scrabble iterates through all the target building data points until it identifies all building labels with high confidence.
 </span></div>
-![Scrabble Architecture](/project/DA_Research/index_files/Picture1.png)<!-- .element height="50%" width="50%" -->
+
+![Scrabble Architecture](/project/DA_Research/index_files/Picture1.png)
 
 <div style="text-align:justify"><span>
 Given this underlying hierarchical structure of Scrabble, domain adaptation can be implemented in two specific layers. The CRF layer when the tokens from a sentence are converted to Tags or in the MLP layer to convert the Intermediate Representation (IR) tags to the final tagsets. In this research, we attempt on implementing domain adaptation in the latter by obtaining training or source building information and using transfer learning techniques to map the tags from target building to the tagsets despite the shift in the domain. 
 </span></div>
+
 ## Implementation
 
 ### 1. Neural Adapter
