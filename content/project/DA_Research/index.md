@@ -21,7 +21,7 @@ url_slides: https://github.com/neonflux56/Domain_Adaptation_Research/blob/master
 url_video: ""
 ---
 
-<div style="text-align:justify"><span style="color:red; font-family:Georgia; font-size:2em;">
+<div style="text-align:justify"><span style="font-family:Georgia;">
 
 ## Executive Summary
 
