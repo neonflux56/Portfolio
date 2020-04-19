@@ -161,7 +161,12 @@ The neural adapter model with a direct source and target output linkage layer pe
 
 - <div style="text-align:justify"><span>Deep fake, which is an infamously hot topic currently use Generative Adversarial Networks to create domain shifts/noise in a real image. Domain adaptation techniques can be used to classify a real image from a fake one and prevent massive misuse of this technology.</span></div>
 
-![Source: Deeptrace](/project/DA_Research/index_files/Picture6.png)<!-- .element height="50%" width="50%" -->
+![Source: Deeptrace](/project/DA_Research/index_files/Picture6.png)
+
+<p align="center">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture6.png">
+  <em>Source: Deeptrace</em>
+</p>
 
 ## References
 
