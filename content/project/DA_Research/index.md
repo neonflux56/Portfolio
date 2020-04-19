@@ -143,10 +143,11 @@ These two methods - Neural Adapter and Adversarial Domain Adaptation are used in
 <div style="text-align:justify"><span>
 Evaluation of the performance of a model was done using set accuracy since that this was a multi-label classification with a lot of sparse values in the output. A multi-layer perceptron with two hidden layers to classify labels was considered as a baseline model for comparison. This model was trained without any sort of domain adaptation. The set accuracy obtained by these models were compared with the baseline model implemented without any adaptation technique. The results obtained were as shown in the below plot.
 </span></div>
+```math
+set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.union(true))} 
+```
 
-$ set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.union(true))} $, summed for all datapoints
-
-<p align="center">
+<p align="center" style="font-family:courier;font-size:50%;">
   <img width="460" height="300" src="/project/DA_Research/index_files/Picture5.png">
   <em>Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building</em>
 </p>
