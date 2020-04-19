@@ -21,6 +21,8 @@ url_slides: https://github.com/neonflux56/Domain_Adaptation_Research/blob/master
 url_video: ""
 ---
 
+<div style="text-align:justify"><span style="color:red; font-family:Georgia; font-size:2em;">
+
 ## Executive Summary
 
 The basic goal of this research project is to obtain a scalable model to map building information onto a common unified schema. This is done using pre-trained models on set of selected source buildings with the help of domain adaptation. Construction engineers and Architects could use an interface built on this schema to track and monitor different technical elements in a building's architecture like temperature sensors, hvac systems and their locations in the building. This project attempts to use multiple domain adaptation techniques and compares their performance with each other to realize the feasibility of such a solution.
@@ -138,6 +140,10 @@ The neural adapter model with a direct source and target output linkage layer pe
 - [Neural Adapter](https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf) : Domain Adaption using Neural Adapter
 
 - [Adversarial Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) : Domain Adaption using discriminative learning
+
+
+</span></div>
+
 
 {{%alert%}}
 Click [PDF](https://github.com/neonflux56/Domain_Adaptation_Research/blob/master/Independent_Research_Report_Ashish.pdf) to view more details on this project.
