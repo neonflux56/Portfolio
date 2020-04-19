@@ -70,6 +70,7 @@ Given this underlying hierarchical structure of Scrabble, domain adaptation can 
 <div style="text-align:justify"><span>
 This method aims at transferring knowledge in an incremental progressive way within the same domain rather than to the other domains. It is assumed that the target output domain is included in the source output domain. A neural adapter is used to mitigate the differences between the source and target label distributions and learn from them. This provides additional important information to the final model. In the Scrabble context, we would use the source building tags to tagset conversion information and transfer the knowledge to a target building where new label categories appear. Following is a detailed explanation on the progressive transfer learning approach.
 </span></div>
+
 ![Implementation Architecture, Source: https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf](/project/DA_Research/index_files/Picture3.png)
 
 #### i. Training of a source model 
@@ -77,11 +78,13 @@ This method aims at transferring knowledge in an incremental progressive way wit
 <div style="text-align:justify"><span>
 A labeling model Ms is trained on a source dataset Ds to obtain optimal parameters These are saved and reused for transfer learning. We use a multi-layer perceptron to train this model.
 </span></div>
+
 #### ii. Parameter Transfer
 
 <div style="text-align:justify"><span>
 The parameters in the output layer is initialized with the weights drawn from the normal distribution of the saved weights from the pre-trained source model Ms, taking the mean and standard deviation of the values. The weights not in the output layer are set with the same values as obtained from the optimum weights from Ms. We test this condition by implementing various other combinations of weight assignment for parameter transfer as explained in the future sections.
 </span></div>
+
 #### iii. Target model training
 
 <div style="text-align:justify"><span>
@@ -93,9 +96,11 @@ Here, we use the transferred parameters and train the target training data by de
 <div style="text-align:justify"><span>
 Adversarial adaptation methods have become increasingly popular approach to minimise a domain discrepancy with respect to a domain discriminator. This is closely related to the generative adversarial learning or GANs where two networks generator and discriminator are pit against each other and both try to outperform the other, hence reaching a state of domain generalisation that can result in better target scope predictions. This works under the assumption that probability distribution of source domain is not equal to the probability distribution of the target domain but the conditional probability distribution of the labels given an instance from both the domains are the same.
 </span></div>
+
 <div style="text-align:justify"><span>
 The overview of this method is to perform some kind of transformation on bot source and target domain to get the distributions closer. The classifier is trained on the transformed source domain and since both the distributions are now on the same scale, the model obtains better results on target domain. Assume the neural network used for transformation is denoted by ‘T’ with the parameters ‘P’. The instances from source and target domain are denoted as ’s’ and ’t’. The transformed vector is denoted as Vs and Vt for source and target.
 </span></div>
+
 Then,
 
 T(s,P) = Vs and T(t,P) = Vt
@@ -134,9 +139,11 @@ We place a gradient reversal layer between the feature extractor and the domain 
 <div style="text-align:justify"><span>
 These two methods - Neural Adapter and Adversarial Domain Adaptation are used in the Scrabble context to perform domain adaptation. Once we obtain the tags from the sentences from the target building data points, we perform domain adaptation in the second stage of the framework where the Intermediate Representation (IR) Tags are converted to the Tagset labels. We use samples from both source and target building to form the training data, to incorporate both the domains for the training process. The datapoints are vectorised to a csr matrix using CountVectorizer, including the response variable which is the tagset label. The domain index of the training data is also obtained and fed into the modelling process. Multiple variations and combinations are tried and tested to achieve better results.
 </span></div>
+
 <div style="text-align:justify"><span>
 Evaluation of the performance of a model was done using set accuracy since that this was a multi-label classification with a lot of sparse values in the output. A multi-layer perceptron with two hidden layers to classify labels was considered as a baseline model for comparison. This model was trained without any sort of domain adaptation. The set accuracy obtained by these models were compared with the baseline model implemented without any adaptation technique. The results obtained were as shown in the below plot.
 </span></div>
+
 $set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.union(true))} , summed for all datapoints
 
 ![Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building](/project/DA_Research/index_files/Picture5.png)
@@ -144,6 +151,7 @@ $set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.
 <div style="text-align:justify"><span>
 The neural adapter model with a direct source and target output linkage layer performed the best. The adversarial domain adaptation performed well in discriminating the domain with 0.5 accuracy and the labels with greater than 0.8 accuracy. One of the reasons the adversarial domain adaptation did not work the best is probably that the gradient reversal layers leads to vanishing gradient problem once the domain predictor has achieved maximum accuracy. Another reason might be that same weights are being used for performing the transformation on the source domain and the target domain. Since, both source and target domain might have different features therefore, shared weights might lead to less number of parameters for learning independent features and transforming both the distributions.
 </span></div>
+
 ## Business Applications of Domain Adaptation
 
 
