@@ -45,10 +45,6 @@ url_video: ""
 
 </span></div>
 
-<p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="460" height="300" src="/project/TextCraft/index_files/Picture2.png">
-  <em>Domain Shift</em>
-</p>
 
 <div style="text-align:justify"><span>
 
