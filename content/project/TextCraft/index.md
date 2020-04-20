@@ -38,26 +38,34 @@ Like the commonly used machine learning quote goes, "Treat your data like a prod
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="500" height="400" src="/project/TextCraft/index_files/pic2.png">
+  <img width="650" height="550" src="/project/TextCraft/index_files/pic2.png">
   <em></em>
 </p>
 
 <div style="text-align:justify"><span>
 The app works in three stages:
 </span></div>
+
 <br>
-- ### 1. Load Stage
+
+### 1. Load Stage
+
 <br>
 <div style="text-align:justify"><span>
 The user gets to upload data in a csv file or hit Application Programming Interfaces(APIs) to fetch data into the tool. The user gets to see a preview of the collected data and decide the field that becomes the response and the field on which text models are applied.
 </span></div>
-- ### 2. Process Stage
+<br>
+
+### 2. Process Stage
+
 <br>
 <div style="text-align:justify"><span>
-This is the stage where data cleaning and modelling takes place. The user gets a glimpse of general summaries of the dataset like the Tf-Idf scores, frequency counts etc. The user gets to annotate the word collection accordingly. The tool also allows the user to try different configuration parameters for running various models. 
+This is the stage where data cleaning and modelling takes place. The user gets a glimpse of general summaries of the dataset like the TF-IDF scores, frequency counts etc. The user gets to annotate the word collection accordingly. The tool also allows the user to try different configuration parameters for running various models. 
 </span></div>
+<br>
 
-- ### 3. Insights Stage
+### 3. Insights Stage
+
 <br>
 <div style="text-align:justify"><span>
 This stage displays a set of tailored charts and visuals corresponding to the configured outputs for the user to make sense of the data. The plots are grouped by each response field categories making the analysis more granular and comprehensive.
@@ -65,7 +73,7 @@ This stage displays a set of tailored charts and visuals corresponding to the co
 
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="500" height="400" src="/project/TextCraft/index_files/pic3.png">
+  <img width="600" height=550" src="/project/TextCraft/index_files/pic3.png">
   <em></em>
 </p>
 
@@ -80,7 +88,7 @@ The front end interface is also laid out in the three-stage fashion of the app's
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="600" height="500" src="/project/TextCraft/index_files/pic4.png">
+  <img width="700" height="550" src="/project/TextCraft/index_files/pic4.png">
   <em></em>
 </p>
 
@@ -88,19 +96,19 @@ The front end interface is also laid out in the three-stage fashion of the app's
 ### Load Data Tab
 
 <div style="text-align:justify"><span>
-
+Under this tab, the user gets to upload a CSV file with the data or enter an API link which provides access to a json scipt of data. The json from API is automatically converted into a dataframe in R, The fetched data is previewed on the lower part of the screen. The user then decides with field becomes the text corpus and which field would categorize the text as the response variable. Though, the user can select a single response field at a time, this field can be changed to redo the analysis. For reference, let's load a dataset containing the reviews for cirque-du-soleil shows in held in Vegas. The show names becomes the response and the reviews become the text corpus.
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="600" height="500" src="/project/TextCraft/index_files/pic5.png">
-  <em></em>
+  <img width="600" height="550" src="/project/TextCraft/index_files/pic5.png">
+  <em>Load Data: The user uploads a CSV file or enters API link</em>
 </p>
 
 
 ### Process Data Tab
 
 <div style="text-align:justify"><span>
-
+This is the main tab where text is analyzed and models are initiated. At the top of the screen, the user gets to see the top 10 words with their word counts, TF-IDF scores and the suggested words to remove. Suggested words to remove are defined by a collection of conditional statements, depending on the word frequency, their TF-IDF score and their correlation with the title of the responses. The Annotation part allows the user to select the words to remove or enter a specific word. The user also has the ability to reset the changes to the original form. 
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
@@ -110,12 +118,16 @@ The front end interface is also laid out in the three-stage fashion of the app's
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="600" height="500" src="/project/TextCraft/index_files/pic7.png">
-  <em>Selected words removed from corpus</em>
+  <em>Process Data: Selected words removed from corpus</em>
 </p>
+
+<div style="text-align:justify"><span>
+Once the redundant words are removed from the corpus, the app runs two main models - topic and sentiment analysis. For the topic analysis part, Latent Dirichlect Allocation (LDA) model is used in an unsupervised fashion to identify the most matching words for a particular topic. The top TF-IDF scores with respect to each response category is also obtained in the backend. The user is allowed to change the model configuration parameters like the seed value, number of topics, number of words per topic etc. The user also can perform the text tokenization in a unigram or bigram method, which basically refers to the number of words per token. For the chosen example, let's choose unigram modeling showing top 7 words and running LDA for 4 unsupervised topics. Clicking on 'Analyze Document Corpus' initiates the process.
+</span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="600" height="500" src="/project/TextCraft/index_files/pic8.png">
-  <em>LDA model configuration options</em>
+  <em>Process Data: LDA model configuration options</em>
 </p>
 
 
@@ -127,12 +139,12 @@ The front end interface is also laid out in the three-stage fashion of the app's
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="600" height="500" src="/project/TextCraft/index_files/pic9.png">
-  <em></em>
+  <em>Get Insights: </em>
 </p>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="600" height="500" src="/project/TextCraft/index_files/pic9.png">
-  <em></em>
+  <em>Get Insights: </em>
 </p>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
