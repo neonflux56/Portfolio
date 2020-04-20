@@ -12,7 +12,8 @@ links:
 #slides: TextCraft
 summary: 
 tags:
-- Python
+- R
+- Data Visualization
 title: TextCraft
 
 url_code: ""
