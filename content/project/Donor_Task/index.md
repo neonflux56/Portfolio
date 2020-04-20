@@ -22,9 +22,7 @@ url_slides: https://github.com/neonflux56/Donor_Classification/blob/master/Donor
 url_video: ""
 ---
 
-<div style="text-align:justify"><span>
 
-</span></div>
 
 
 ## Executive Summary
@@ -40,13 +38,14 @@ The NGO sector is now the eighth largest economy in the world worth over $1 tril
 </span></div>
 
 
-## Data Preperation
+## Data Preparation
 
 <div style="text-align:justify"><span>
 In order to achieve the objective, we perform a classic case of a classification
 task. The dataset of individual information and their income level is fetched from the following UCI machine learning repository: 
 </span></div>
-[Individual Income Dataset - UCI Archives](https://archive.ics.uci.edu/ml/datasets/Adult).
+
+[Individual Income Dataset - UCI Archives](https://archive.ics.uci.edu/ml/datasets/Adult)
 
 
 ### A. Description

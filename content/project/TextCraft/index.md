@@ -2,22 +2,22 @@
 date: "2020-03-01T00:00:00Z"
 external_link: ""
 image:
-  caption: Thive Global
+  caption: 
   focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/TheGuptaGuy
-#slides: DA Research
-summary: Semi-supervised domain adaptation to map modern building information
+#slides: TextCraft
+summary: 
 tags:
 - Python
-title: Domain Adaptation using ML Transfer Techniques
+title: TextCraft
 
 url_code: ""
-url_pdf: https://github.com/neonflux56/Domain_Adaptation_Research/blob/master/Independent_Research_Report_Ashish.pdf
-url_slides: https://github.com/neonflux56/Domain_Adaptation_Research/blob/master/Domain%20Adaptation%20Research%20Slides.pdf
+url_pdf: 
+url_slides: 
 url_video: ""
 ---
 
@@ -26,44 +26,44 @@ url_video: ""
 ## Executive Summary
 
 <div style="text-align:justify"><span>
-The basic goal of this research project is to obtain a scalable model to map building information onto a common unified schema. This is done using pre-trained models on set of selected source buildings with the help of domain adaptation. Construction engineers and Architects could use an interface built on this schema to track and monitor different technical elements in a building's architecture like temperature sensors, hvac systems and their locations in the building. This project attempts to use multiple domain adaptation techniques and compares their performance with each other to realize the feasibility of such a solution.
+
 </span></div>
 
-## Research Project Overview
+## Project Overview
 
 <div style="text-align:justify"><span>
-Scrabble framework provides a versatile approach to map building information in the form of thousands of data points on to a common schema, successfully retrieving semantic metadata from unstructured raw metadata. This is done while reusing known information in existing buildings to reduce the amount of effort for domain experts to provide input labels. Modern building infrastructure is supported using sensors and networked into a Building Management System(BMS). BMSes manages data from sensors such as room temperature, power meter; from actuators such as dampers for control of air flow, fans for exhaust; and from configurations such as the temperature setpoint for heating. Brick is a metadata schema which provides for a complete vocabularies and relationships to describe such resources in a machine readable format, thus enabling portability of applications. Scrabble is currently implemented and evaluated for five buildings using Brick as the target schema. 
+ 
 </span></div>
 
 <div style="text-align:justify"><span>
-The high-level objective through this research project is to obtain a more comprehensive interoperability in internet of things by providing for a robust scalable implementation of  Scrabble framework. In the absence of labeled data for a certain classification task, domain adaptation is usually an attractive method given that labeled data of similar nature but from a different domain are available. The intention is to scale the framework to multiple buildings, each of which would correspond to a domain shift or dataset bias, by reducing the adaptation reduce the difference between the training and test domain distributions and thus improving generalization performance of the framework. Given the labeled source building data and the target building input data points, the purpose is to obtain the predictions for the target building labels using Domain Adaptation.
+
 </span></div>
 
 ## Introduction to Domain Adaptation
 
 <div style="text-align:justify"><span>
-During the last few years, new methodologies like Domain Adaptation have improved computer vision applications drastically. Domain Adaptation is a sub-discipline of machine learning where a model is trained on a source distribution and is used in a different (but related) context on a target distribution. For example, from the image below, the bags from domain 1 do not have any background but the bags from domain 2 have a slightly complex backgound. This is called domain shift. If an image classifier is trained on domain 1 and used to predict on domain 2, the model would experience a performance degradation on some level.
+
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="460" height="300" src="/project/DA_Research/index_files/Picture2.png">
+  <img width="460" height="300" src="/project/TextCraft/index_files/Picture2.png">
   <em>Domain Shift</em>
 </p>
 
 <div style="text-align:justify"><span>
-Domain Adaptation basically attempts to eliminate the difference between the distribution of labeled source domain on which a classifier is trained and that of unlabel target distribution to which the classifier is applied. The level of relatedness between the source and target domains hereby usually determines how successful the adaptation will be.
+
 </span></div>
 
-## Domain Adaptation in Scrabble
+## Methodology
 
 <div style="text-align:justify"><span>
-Scrabble uses an active learning framework for normalising the metadata of sensors in multiple buildings by using a transferrable intermediate layer. Scrabble makes use of machine learning algorithm called Conditional Random Field (CRF) Classifier to map a sentence from target building to a set of Brick tags. This is trained with the help of source samples or examples from domain experts. These Brick tags form a reusable Intermediate Representation (IR) for effectiveness in mapping it to the final labels.. A multi-Layer Perceptron(MLP) is used to map the Tags to the corresponding Tagsets. Scrabble iterates through all the target building data points until it identifies all building labels with high confidence.
+
 </span></div>
 
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="460" height="300" src="/project/DA_Research/index_files/Picture1.png">
-  <em>Scrabble Architecture</em>
+  <em></em>
 </p>
 
 <div style="text-align:justify"><span>
@@ -195,5 +195,5 @@ The neural adapter model with a direct source and target output linkage layer pe
 
 
 {{%alert%}}
-Click [PDF](https://github.com/neonflux56/Domain_Adaptation_Research/blob/master/Independent_Research_Report_Ashish.pdf) to view more details on this project.
+Click [PDF]() to view more details on this project.
 {{%/alert%}}
