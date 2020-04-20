@@ -17,6 +17,7 @@ interests:
 - Churn and Risk Management
 - Data Visualization
 - Trend Forecasting
+- Fraud Analytics
 - Deep Learning
 name: Ashish Gupta
 organizations:
