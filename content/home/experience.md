@@ -20,6 +20,20 @@ date_format = "Jan 2006"
 
 
 [[experience]]
+  title = "Data Science Team Lead"
+  company = "UMBA"
+  company_url = ""
+  location = "San Francisco, California"
+  date_start = "2020-04"
+  date_end = ""
+  description = """
+  
+*	Working on deploying a robust ML pipeline for credit risk management by sifting through 400GB worth public information and finding patterns in phone and social media usage; with the objective of reducing loan defaults in the company’s fintech app
+*	As a team lead, my tasks also include planning, monitoring and communicating analytical solutions to stakeholders across business in an agile software developmental cycle
+  """
+  
+
+[[experience]]
   title = "Graduate Student Researcher"
   company = "Computer Science & Engineering Department"
   company_url = ""
@@ -28,8 +42,8 @@ date_format = "Jan 2006"
   date_end = "2020-03-20"
   description = """
   
-*	Worked on machine learning techniques like transfer learning and semi-supervised domain adaptation to map modern building infrastructure information to a common schema for unified interpretation and scalability.
-*	Implemented adversarial discriminative domain adaptation using functional keras and tensorflow in linux python.
+*	Worked on machine learning techniques like transfer learning and semi-supervised domain adaptation to map modern building infrastructure information to a common schema for unified interpretation and scalability
+*	Implemented adversarial discriminative domain adaptation using functional keras and tensorflow in linux python
   """
 
 
