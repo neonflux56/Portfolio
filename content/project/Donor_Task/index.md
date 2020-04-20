@@ -14,7 +14,7 @@ summary: Developed a classification model to predict individual income for optim
 tags:
 - Python
 - Other
-title: Donation request optimization for NGOs using AWS SageMaker
+title: NGO Donation request optimization using AWS SageMaker
 
 url_code: ""
 url_pdf: https://github.com/neonflux56/Donor_Classification/blob/master/BigData%20Project%20Report.pdf
@@ -44,7 +44,9 @@ The NGO sector is now the eighth largest economy in the world worth over $1 tril
 
 <div style="text-align:justify"><span>
 In order to achieve the objective, we perform a classic case of a classification
-task. The dataset of individual information and their income level is fetched from the UCI machine learning repository</span></div> [https://archive.ics.uci.edu/ml/datasets/Adult](https://archive.ics.uci.edu/ml/datasets/Adult).
+task. The dataset of individual information and their income level is fetched from the following UCI machine learning repository: 
+</span></div>
+[Individual Income Dataset - UCI Archives](https://archive.ics.uci.edu/ml/datasets/Adult).
 
 
 ### A. Description
