@@ -43,5 +43,5 @@ user_groups:
 - Visitors
 ---
 
-I am currently a student of business analytics at the University of California, San Diego. Having worked with Ernst & Young for two years as a technology consultant and with the experience of deploying cross-domain data sceince projects, I have found my passion in making sense of complex data patterns with the objective of improving business application. I specialize in data-driven Customer Relationship Management(CRM) solutions, Next-Best-Action recommendation systems, API Integrations and Risk Management solutions primarily using data manipulation and predictive algorithms.
+I am currently a student of business analytics at the University of California, San Diego. Having worked with Ernst & Young for two years as a technology consultant and with the experience of deploying cross-domain data science projects, I have found my passion in making sense of complex data patterns with the objective of improving business application. I specialize in data-driven Customer Relationship Management(CRM) solutions, Next-Best-Action recommendation systems, API Integrations and Risk Management solutions primarily using data manipulation and predictive algorithms.
 
