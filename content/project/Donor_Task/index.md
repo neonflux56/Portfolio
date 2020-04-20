@@ -2,7 +2,7 @@
 date: "2020-02-01T00:00:00Z"
 external_link: ""
 image:
-  caption: Thive Global
+  caption: 
   focal_point: Smart
 links:
 - icon: twitter
@@ -13,6 +13,7 @@ links:
 summary: Developed a classification model to predict individual income for optimizing donation requests for NGOs
 tags:
 - Python
+- Other
 title: Donation request optimization for NGOs using AWS SageMaker
 
 url_code: ""
@@ -43,8 +44,8 @@ The NGO sector is now the eighth largest economy in the world worth over $1 tril
 
 <div style="text-align:justify"><span>
 In order to achieve the objective, we perform a classic case of a classification
-task. The dataset of individual information and their income level is fetched from the UCI machine learning repository [https://archive.ics.uci.edu/ml/datasets/Adult](https://archive.ics.uci.edu/ml/datasets/Adult).
-</span></div>
+task. The dataset of individual information and their income level is fetched from the UCI machine learning repository</span></div> [https://archive.ics.uci.edu/ml/datasets/Adult](https://archive.ics.uci.edu/ml/datasets/Adult).
+
 
 ### A. Description
 
