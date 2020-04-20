@@ -45,7 +45,10 @@ The high-level objective through this research project is to obtain a more compr
 During the last few years, new methodologies like Domain Adaptation have improved computer vision applications drastically. Domain Adaptation is a sub-discipline of machine learning where a model is trained on a source distribution and is used in a different (but related) context on a target distribution. For example, from the image below, the bags from domain 1 do not have any background but the bags from domain 2 have a slightly complex backgound. This is called domain shift. If an image classifier is trained on domain 1 and used to predict on domain 2, the model would experience a performance degradation on some level.
 </span></div>
 
-![Domain Shift](/project/DA_Research/index_files/Picture2.png)
+<p align="center" style="font-family:courier;font-size:75%;">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture2.png">
+  <em>Domain Shift</em>
+</p>
 
 <div style="text-align:justify"><span>
 Domain Adaptation basically attempts to eliminate the difference between the distribution of labeled source domain on which a classifier is trained and that of unlabel target distribution to which the classifier is applied. The level of relatedness between the source and target domains hereby usually determines how successful the adaptation will be.
@@ -57,7 +60,11 @@ Domain Adaptation basically attempts to eliminate the difference between the dis
 Scrabble uses an active learning framework for normalising the metadata of sensors in multiple buildings by using a transferrable intermediate layer. Scrabble makes use of machine learning algorithm called Conditional Random Field (CRF) Classifier to map a sentence from target building to a set of Brick tags. This is trained with the help of source samples or examples from domain experts. These Brick tags form a reusable Intermediate Representation (IR) for effectiveness in mapping it to the final labels.. A multi-Layer Perceptron(MLP) is used to map the Tags to the corresponding Tagsets. Scrabble iterates through all the target building data points until it identifies all building labels with high confidence.
 </span></div>
 
-![Scrabble Architecture](/project/DA_Research/index_files/Picture1.png)
+
+<p align="center" style="font-family:courier;font-size:75%;">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture1.png">
+  <em>Scrabble Architecture</em>
+</p>
 
 <div style="text-align:justify"><span>
 Given this underlying hierarchical structure of Scrabble, domain adaptation can be implemented in two specific layers. The CRF layer when the tokens from a sentence are converted to Tags or in the MLP layer to convert the Intermediate Representation (IR) tags to the final tagsets. In this research, we attempt on implementing domain adaptation in the latter by obtaining training or source building information and using transfer learning techniques to map the tags from target building to the tagsets despite the shift in the domain. 
@@ -71,7 +78,11 @@ Given this underlying hierarchical structure of Scrabble, domain adaptation can 
 This method aims at transferring knowledge in an incremental progressive way within the same domain rather than to the other domains. It is assumed that the target output domain is included in the source output domain. A neural adapter is used to mitigate the differences between the source and target label distributions and learn from them. This provides additional important information to the final model. In the Scrabble context, we would use the source building tags to tagset conversion information and transfer the knowledge to a target building where new label categories appear. Following is a detailed explanation on the progressive transfer learning approach.
 </span></div>
 
-![Implementation Architecture, Source: https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf](/project/DA_Research/index_files/Picture3.png)
+<p align="center" style="font-family:courier;font-size:75%;">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture3.png">
+  <em>Implementation Architecture
+  Source: https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf</em>
+</p>
 
 #### i. Training of a source model 
 
@@ -128,7 +139,11 @@ This MLP predicts whether the output of the feature extractor is from the source
 The intuition is that the feature extractor produces a type of transformation that domain classifier is not able to classify the domain of the transformed instances. This is done by training the feature extractor and domain extractor in a way that feature extractor is trained to maximize the domain classification loss, while the domain classifier is trained to minimize the domain classification loss. The label predictor is trained to predict the labels on the transformed instances since the source is labeled. The feature extractor thus learns to produce discriminative and domain-invariant features.
 </span></div>
 
-![Adversarial Domain Adaptation architecture, Source: https://arxiv.org/pdf/1409.7495.pdf](/project/DA_Research/index_files/Picture4.png)
+<p align="center" style="font-family:courier;font-size:75%;">
+  <img width="460" height="300" src="/project/DA_Research/index_files/Picture4.png">
+  <em>Adversarial Domain Adaptation architecture
+  Source: https://arxiv.org/pdf/1409.7495.pdf</em>
+</p>
 
 <div style="text-align:justify"><span>
 We place a gradient reversal layer between the feature extractor and the domain classifier which acts as an identity function during forward propagation but during back propagation it multiplies the input by -1. Intuitively, this layer is leading to the opposite of gradient descent, that is, it is performing gradient ascent on the feature extractor with respect to the classification loss on the domain predictor.
@@ -143,16 +158,12 @@ These two methods - Neural Adapter and Adversarial Domain Adaptation are used in
 <div style="text-align:justify"><span>
 Evaluation of the performance of a model was done using set accuracy since that this was a multi-label classification with a lot of sparse values in the output. A multi-layer perceptron with two hidden layers to classify labels was considered as a baseline model for comparison. This model was trained without any sort of domain adaptation. The set accuracy obtained by these models were compared with the baseline model implemented without any adaptation technique. The results obtained were as shown in the below plot.
 </span></div>
-```math
-set_accuracy = \frac{length (prediction.intersection(true))}{length(prediction.union(true))} 
-```
 
-<p align="center" style="font-family:courier;font-size:50%;">
+<p align="center" style="font-family:courier;font-size:75%;">
   <img width="460" height="300" src="/project/DA_Research/index_files/Picture5.png">
   <em>Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building</em>
 </p>
 
-![Set Accuracy for all Methods using ‘EBU3B’ as Source building and ‘AP_M’ as Target Building](/project/DA_Research/index_files/Picture5.png)
 
 <div style="text-align:justify"><span>
 The neural adapter model with a direct source and target output linkage layer performed the best. The adversarial domain adaptation performed well in discriminating the domain with 0.5 accuracy and the labels with greater than 0.8 accuracy. One of the reasons the adversarial domain adaptation did not work the best is probably that the gradient reversal layers leads to vanishing gradient problem once the domain predictor has achieved maximum accuracy. Another reason might be that same weights are being used for performing the transformation on the source domain and the target domain. Since, both source and target domain might have different features therefore, shared weights might lead to less number of parameters for learning independent features and transforming both the distributions.
