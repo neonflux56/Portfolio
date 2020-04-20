@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company = "UMBA"
   company_url = ""
   location = "San Francisco, California"
-  date_start = "2020-04"
+  date_start = "2020-04-01"
   date_end = ""
   description = """
   
