@@ -10,11 +10,11 @@ links:
   name: Follow
   url: https://twitter.com/TheGuptaGuy
 #slides: TextCraft
-summary: A dynamic user-friendly interface for analysic topics and sentiments in text documents
+summary: A dynamic user-friendly interface for analysis of topics and sentiments in text documents
 tags:
 - R
 - Data Visualization
-title: TextCraft - A comprehensive tool for text analytics
+title: TextCraft - A tool for text analytics
 
 url_code: ""
 url_pdf: 
