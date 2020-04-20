@@ -80,8 +80,7 @@ This method aims at transferring knowledge in an incremental progressive way wit
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="460" height="300" src="/project/DA_Research/index_files/Picture3.png">
-  <em>Implementation Architecture
-  Source: https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf</em>
+  <em>Implementation Architecture<br>Source: https://www.aaai.org/Papers/AAAI/2019/AAAI-ChenLingzhen.6418.pdf</em>
 </p>
 
 #### i. Training of a source model 
@@ -145,8 +144,7 @@ The intuition is that the feature extractor produces a type of transformation th
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
   <img width="460" height="300" src="/project/DA_Research/index_files/Picture4.png">
-  <em>Adversarial Domain Adaptation architecture
-  Source: https://arxiv.org/pdf/1409.7495.pdf</em>
+  <em>Adversarial Domain Adaptation architecture<br>Source: https://arxiv.org/pdf/1409.7495.pdf</em>
 </p>
 
 <div style="text-align:justify"><span>
