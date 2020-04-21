@@ -87,7 +87,7 @@ The front end interface is also laid out in the three-stage fashion of the app's
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic4.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic4.png">
   <em>Home: Landing page of the app</em>
 </p>
 
@@ -99,7 +99,7 @@ Under this tab, the user gets to upload a CSV file with the data or enter an API
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic5.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic5.png">
   <em>Load Data: The user uploads a CSV file or enters API link</em>
 </p>
 
@@ -111,12 +111,12 @@ This is the main tab where text is analyzed and models are initiated. At the top
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic6.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic6.png">
   <em>Process Data: Words selected/entered for annotation</em>
 </p>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic7.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic7.png">
   <em>Process Data: Selected words removed from corpus</em>
 </p>
 
@@ -125,7 +125,7 @@ Once the redundant words are removed from the corpus, the app runs two main mode
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic8.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic8.png">
   <em>Process Data: LDA model configuration options</em>
 </p>
 
@@ -137,7 +137,7 @@ Once the redundant words are removed from the corpus, the app runs two main mode
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
-  <img width="800" height="750" src="/project/TextCraft/index_files/pic9.png">
+  <img width="900" height="850" src="/project/TextCraft/index_files/pic9.png">
   <em>Get Insights: </em>
 </p>
 
