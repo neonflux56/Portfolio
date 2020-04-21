@@ -26,7 +26,7 @@ url_video: ""
 ## Executive Summary
 
 <div style="text-align:justify"><span>
-The basic goal of this research project is to obtain a scalable model to map building information onto a common unified schema. This is done using pre-trained models on set of selected source buildings with the help of domain adaptation. Construction engineers and Architects could use an interface built on this schema to track and monitor different technical elements in a building's architecture like temperature sensors, HVAC systems and their locations in the building. This project attempts to use multiple domain adaptation techniques and compares their performance with each other to realize the feasibility of such a solution.
+The basic goal of this research project is to obtain a scalable model to map building information onto a common unified schema. This is done using pre-trained models on set of selected source buildings with the help of domain adaptation. Construction engineers and Architects could use an interface built on this schema to track and monitor different technical elements in a building's architecture like temperature sensors, HVAC systems and their locations in the building. This project attempts to use multiple domain adaptation techniques and compares their performance against each other to realize the feasibility of such a solution.
 </span></div>
 
 ## Research Project Overview
