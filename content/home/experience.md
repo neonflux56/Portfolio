@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 
 [[experience]]
-  title = "Data Science Team Lead"
+  title = "Lead Data Consultant"
   company = "UMBA"
   company_url = ""
   location = "San Francisco, California"
