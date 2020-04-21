@@ -19,18 +19,6 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 
-[[experience]]
-  title = "Lead Data Consultant"
-  company = "UMBA"
-  company_url = ""
-  location = "San Francisco, California"
-  date_start = "2020-04-01"
-  date_end = ""
-  description = """
-  
-*	Working on deploying a robust ML pipeline for credit risk management by sifting through 400GB worth public information and finding patterns in phone and social media usage; with the objective of reducing loan defaults in the company’s fintech app
-*	As a team lead, my tasks also include planning, monitoring and communicating analytical solutions to stakeholders across business in an agile software developmental cycle
-  """
   
 
 [[experience]]
