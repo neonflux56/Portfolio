@@ -148,7 +148,7 @@ The model takes a little while to run before producing the analysis results. The
 </p>
 
 <div style="text-align:justify"><span>
-The sentiment analysis sub-tab comprises of all the sentiment and emotion distribution in the entire corpus and also grouped by each response category. The package 'sentimentr' from cran was used for this part of analysis. NRC Lexicon for identifying the emotion of a word was used to associate the review context with emotion. The plots below show the distribution of emotion in the entire corpus and the emotion for a single show name.
+The sentiment analysis sub-tab comprises of all the sentiment and emotion distribution in the entire corpus and also grouped by each response category. The package 'sentimentr' from cran is used for this part of analysis. NRC Lexicon for identifying the emotion of a word is used to associate the review context with emotion. The plots below show the distribution of emotion in the entire corpus and the emotion for a single show - MJ One.
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
@@ -162,7 +162,7 @@ The sentiment analysis sub-tab comprises of all the sentiment and emotion distri
 </p>
 
 <div style="text-align:justify"><span>
-A sentiment score was used to as a measure to identify the general sentiment. The score distribution was analysed at various levels. Tts mean and standard deviation was calculated per response group. Following plots show the results of this analysis.
+A sentiment score is used to as a measure to identify the general sentiment. The score distribution is analysed at various levels and its mean and standard deviation is calculated per response group. Following plots show the results of this analysis.
 </span></div>
 
 <p align="center" style="font-family:Georgia;font-size:75%;">
