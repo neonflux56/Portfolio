@@ -25,15 +25,23 @@ url_video: ""
 <p><b><i><u>Note:</u> This project was implemented in collaboration with the data-driven media agency DirectAvenue, Carlsbad, CA. Non-Disclosure Agreement(NDA) signed prevents me from releasing the codebase or any more details on the project.
  </i></b></p>
 </span></div>
+
 <br>
+
 ## Executive Summary
+
 <br>
+
 <div style="text-align:justify"><span>
 In the TV advertisement industry, businesses seek to maximise the consumer reach by airing ads at optimal investment levels. Neilson Corporation rates TV ad-spots and provides estimates of the consumer reach with metrics like Gross Rating Points(GRP) or Reach Percentage. DirectAvenue is a data-driven media agency which collaborates with businesses to optimize their advertisement investments. In this project, the deliverable was to predict the consumer reach for unrated TV ad-spots using the data from Nielson-rated spots. A gradient boosting regression model using python was developed with factors like location, spot cost, airing station, airing time of the day and day of the week. Key metrics were identified and the model was deployed for DirectAvenue to make valid recommendations to their clients for optimizing media investments.
 </span></div>
+
 <br>
+
 ## Project Overview
+
 <br>
+
 <div style="text-align:justify"><span>
 With the advent of advertising through mass media channels, some of the biggest drivers of profit have been T.V. spots, or individual advertisements seen on T.V. channels. Top companies bid for slots ranging from 15 seconds to 1 minute in length. One of the more popularized examples of T.V. spots are Super Bowl Ads, which are advertisements that air specifically during the Super Bowl in early February. Companies bid for slots that, according to CNBC, cost about $175,000 per second in an attempt to create the most provocative advertisement.
 </span></div>
