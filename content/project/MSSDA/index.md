@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/TheGuptaGuy
 #slides: MSSEDA
-summary: Developing a customisable survey system which uses Logistic Regression to predict a categorical survey information.
+summary: Developed a customisable survey system which uses Logistic Regression to predict a categorical survey information
 tags:
 - Python
 - Data Visualization

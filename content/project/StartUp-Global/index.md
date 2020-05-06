@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/TheGuptaGuy
 #slides: MSSEDA
-summary: Predicting the rank of a country in terms of Ease of Doing Business(EODB) in 2019 using Deep Learning.
+summary: Predicted the rank of a country in terms of Ease of Doing Business(EODB) in 2019 using Deep Learning
 tags:
 - R
 - Data Visualization
