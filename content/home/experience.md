@@ -19,7 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 
+[[experience]]
+  title = "Data Scientist"
+  company = "Qatar Airways"
+  company_url = ""
+  location = "New York"
+  date_start = "2020-09-14"
+  date_end = ""
+  description = """
   
+* Worked closely with leadership in developing an automated python flask-based web-application for identifying network opportunities and threats to QR market share, drastically reducing the conventional man-hours required
+* Worked on market segmentation at the booking level using complex business rules and scoring systems on IATA datasets using pySpark on Azure DataBricks; thus, improving campaign performance and maximizing revenue
+* Part of the global Central Business Intelligence team, my structural tasks also include validating data integrity, standardizing key RM data practices at a company-wide level using Tableau, maintaining pipeline systems for recurring data streams and ad-hoc querying using Dremio data lake and SQL for business applications
+  """
+
+
+[[experience]]
+  title = "Lead Data Consultant"
+  company = "UMBA"
+  company_url = ""
+  location = "San Fransisco, California"
+  date_start = "2020-04-03"
+  date_end = "2020-06-20"
+  description = """
+  
+*	Worked on deploying a robust ML pipeline for credit risk management by sifting through 400GB worth public information and finding patterns in SMS, call and social media usage; with the objective of reducing loan defaults in the company’s fintech app
+*	As the team lead, my tasks also included planning, monitoring and communicating analytical solutions to stakeholders across business in an agile software developmental cycle
+  """
 
 [[experience]]
   title = "Graduate Student Researcher"
